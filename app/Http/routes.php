@@ -1,8 +1,8 @@
 <?php
 
 Route::get('/', function () {
-    //return view('home');
-    return "Usando Git"; //Cambio realizado para crear la versión 2.
+    return view('home');
+    //return "Usando Git"; //Cambio realizado para crear la versión 2.
 });
 
 //Ruta para el formulario.
